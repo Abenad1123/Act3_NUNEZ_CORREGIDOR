@@ -22,7 +22,41 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.enroll_btn = New System.Windows.Forms.PictureBox()
+        Me.TableLayoutPanel1.SuspendLayout()
+        CType(Me.enroll_btn, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.TableLayoutPanel1.ColumnCount = 3
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.38004!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15.92357!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.69639!))
+        Me.TableLayoutPanel1.Controls.Add(Me.enroll_btn, 1, 1)
+        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 3
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.476674!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.736308!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 84.78702!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(942, 493)
+        Me.TableLayoutPanel1.TabIndex = 0
+        '
+        'enroll_btn
+        '
+        Me.enroll_btn.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.enroll_btn.Image = Global.ACT3_NUÑEZ_CORREGIDOR.My.Resources.Resources.enroll_btn
+        Me.enroll_btn.Location = New System.Drawing.Point(487, 30)
+        Me.enroll_btn.MaximumSize = New System.Drawing.Size(216, 63)
+        Me.enroll_btn.Name = "enroll_btn"
+        Me.enroll_btn.Size = New System.Drawing.Size(144, 42)
+        Me.enroll_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.enroll_btn.TabIndex = 0
+        Me.enroll_btn.TabStop = False
         '
         'Form1
         '
@@ -30,11 +64,16 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.ACT3_NUÑEZ_CORREGIDOR.My.Resources.Resources.main_bg
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(942, 493)
+        Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.TableLayoutPanel1.ResumeLayout(False)
+        CType(Me.enroll_btn, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents enroll_btn As PictureBox
 End Class

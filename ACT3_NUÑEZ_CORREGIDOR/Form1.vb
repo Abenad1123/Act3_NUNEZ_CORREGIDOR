@@ -28,4 +28,15 @@
     Public Shared reg_uniform_set_size As Integer
     Public Shared pe_uniform_set_size As Integer
 
+    Private Sub enrol_btn_MEnter(sender As Object, e As EventArgs) Handles enroll_btn.MouseEnter
+        enroll_btn.Image = My.Resources.enroll_btn_hover
+    End Sub
+
+    Private Sub enrol_btn_MLeave(sender As Object, e As EventArgs) Handles enroll_btn.MouseLeave
+        enroll_btn.Image = My.Resources.enroll_btn
+    End Sub
+
+    Private Sub enroll_btn_Click(sender As Object, e As EventArgs) Handles enroll_btn.Click
+
+    End Sub
 End Class
