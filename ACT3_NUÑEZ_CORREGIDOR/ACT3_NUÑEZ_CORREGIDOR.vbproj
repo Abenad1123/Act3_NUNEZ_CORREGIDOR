@@ -171,5 +171,11 @@
   <ItemGroup>
     <None Include="assets\acad_calendar_btn_hover.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\go_back_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\go_back_btn_hover.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
