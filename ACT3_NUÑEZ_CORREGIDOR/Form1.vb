@@ -28,15 +28,45 @@
     Public Shared reg_uniform_set_size As Integer
     Public Shared pe_uniform_set_size As Integer
 
-    Private Sub enrol_btn_MEnter(sender As Object, e As EventArgs) Handles enroll_btn.MouseEnter
+    Private Sub enroll_btn_MEnter(sender As Object, e As EventArgs) Handles enroll_btn.MouseEnter
         enroll_btn.Image = My.Resources.enroll_btn_hover
     End Sub
 
-    Private Sub enrol_btn_MLeave(sender As Object, e As EventArgs) Handles enroll_btn.MouseLeave
+    Private Sub enroll_btn_MLeave(sender As Object, e As EventArgs) Handles enroll_btn.MouseLeave
         enroll_btn.Image = My.Resources.enroll_btn
     End Sub
 
-    Private Sub enroll_btn_Click(sender As Object, e As EventArgs) Handles enroll_btn.Click
+    Private Sub acad_btn_MEnter(sender As Object, e As EventArgs) Handles acad_btn.MouseEnter
+        acad_btn.Image = My.Resources.acad_calendar_btn_hover
+    End Sub
 
+    Private Sub acad_btn_MLeave(sender As Object, e As EventArgs) Handles acad_btn.MouseLeave
+        acad_btn.Image = My.Resources.acad_calendar_btn
+    End Sub
+
+    Private Sub about_btn_MEnter(sender As Object, e As EventArgs) Handles about_btn.MouseEnter
+        about_btn.Image = My.Resources.about_btn_hover
+    End Sub
+
+    Private Sub about_btn_MLeave(sender As Object, e As EventArgs) Handles about_btn.MouseLeave
+        about_btn.Image = My.Resources.about_btn
+    End Sub
+
+    Private Sub enroll_btn_Click(sender As Object, e As EventArgs) Handles enroll_btn.Click
+        Dim enroll As New Form2()
+        enroll.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub acad_btn_Click(sender As Object, e As EventArgs) Handles acad_btn.Click
+        Dim acad As New Form3()
+        acad.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub about_btn_Click(sender As Object, e As EventArgs) Handles about_btn.Click
+        Dim about As New Form4()
+        about.Show()
+        Me.Close()
     End Sub
 End Class
