@@ -22,11 +22,11 @@
     Public Shared intial_pay As Double = 0
     Public Shared total_pay As Double = 0
 
-    Public Shared reg_uniform_set_amount As Integer
-    Public Shared pe_uniform_set_amount As Integer
+    Public Shared reg_uniform_set_amount As Integer = 0
+    Public Shared pe_uniform_set_amount As Integer = 0
 
-    Public Shared reg_uniform_set_size As Integer
-    Public Shared pe_uniform_set_size As Integer
+    Public Shared reg_uniform_set_size As Integer = 0
+    Public Shared pe_uniform_set_size As Integer = 0
 
     Private Sub enroll_btn_MEnter(sender As Object, e As EventArgs) Handles enroll_btn.MouseEnter
         enroll_btn.Image = My.Resources.enroll_btn_hover

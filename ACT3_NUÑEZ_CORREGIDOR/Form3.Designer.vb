@@ -54,17 +54,17 @@ Partial Class Form3
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 84.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(800, 450)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(942, 493)
         Me.TableLayoutPanel1.TabIndex = 1
         '
         'enroll_btn
         '
         Me.enroll_btn.Dock = System.Windows.Forms.DockStyle.Fill
         Me.enroll_btn.Image = Global.ACT3_NUÑEZ_CORREGIDOR.My.Resources.Resources.enroll_btn
-        Me.enroll_btn.Location = New System.Drawing.Point(387, 30)
+        Me.enroll_btn.Location = New System.Drawing.Point(455, 32)
         Me.enroll_btn.MaximumSize = New System.Drawing.Size(236, 75)
         Me.enroll_btn.Name = "enroll_btn"
-        Me.enroll_btn.Size = New System.Drawing.Size(114, 39)
+        Me.enroll_btn.Size = New System.Drawing.Size(135, 43)
         Me.enroll_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.enroll_btn.TabIndex = 0
         Me.enroll_btn.TabStop = False
@@ -73,10 +73,10 @@ Partial Class Form3
         '
         Me.go_back_btn.Dock = System.Windows.Forms.DockStyle.Fill
         Me.go_back_btn.Image = Global.ACT3_NUÑEZ_CORREGIDOR.My.Resources.Resources.go_back_btn
-        Me.go_back_btn.Location = New System.Drawing.Point(523, 30)
+        Me.go_back_btn.Location = New System.Drawing.Point(614, 32)
         Me.go_back_btn.MaximumSize = New System.Drawing.Size(236, 75)
         Me.go_back_btn.Name = "go_back_btn"
-        Me.go_back_btn.Size = New System.Drawing.Size(114, 39)
+        Me.go_back_btn.Size = New System.Drawing.Size(135, 43)
         Me.go_back_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.go_back_btn.TabIndex = 1
         Me.go_back_btn.TabStop = False
@@ -85,10 +85,10 @@ Partial Class Form3
         '
         Me.about_btn.Dock = System.Windows.Forms.DockStyle.Fill
         Me.about_btn.Image = Global.ACT3_NUÑEZ_CORREGIDOR.My.Resources.Resources.about_btn
-        Me.about_btn.Location = New System.Drawing.Point(659, 30)
+        Me.about_btn.Location = New System.Drawing.Point(773, 32)
         Me.about_btn.MaximumSize = New System.Drawing.Size(236, 75)
         Me.about_btn.Name = "about_btn"
-        Me.about_btn.Size = New System.Drawing.Size(114, 39)
+        Me.about_btn.Size = New System.Drawing.Size(135, 43)
         Me.about_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.about_btn.TabIndex = 2
         Me.about_btn.TabStop = False
@@ -99,7 +99,7 @@ Partial Class Form3
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.ACT3_NUÑEZ_CORREGIDOR.My.Resources.Resources.main_bg
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(942, 493)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form3"
