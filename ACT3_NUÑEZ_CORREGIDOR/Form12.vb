@@ -46,7 +46,7 @@
 
         If ComboBox1.SelectedItem = "All" Then
             CheckedListBox1.Items.Clear()
-            Dim allCategories() As Array = {var.Fiction, var.NonFiction, var.Fantasy, var.Mystery, var.ScienceFiction}
+            Dim allCategories() As Array = {var.Fiction, var.NonFiction, var.Fantasy, var.Mystery, var.ScienceFiction, var.Educational, var.Romance}
 
 
             For Each book In allCategories
@@ -62,6 +62,8 @@
             Case "Fantasy" : ChangeItems(var.Fantasy)
             Case "Mystery" : ChangeItems(var.Mystery)
             Case "Science Fiction" : ChangeItems(var.ScienceFiction)
+            Case "Educational" : ChangeItems(var.Educational)
+            Case "Romance" : ChangeItems(var.Romance)
         End Select
     End Sub
 

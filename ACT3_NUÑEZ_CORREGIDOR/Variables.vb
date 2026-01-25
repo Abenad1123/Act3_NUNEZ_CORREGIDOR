@@ -37,6 +37,15 @@
         "The Giver - Lois Lowry"
     }
 
+    ' ===== SCIENCE FICTION =====
+    Public Shared Romance() As String = {
+       "Romance Book"
+    }
+
+    Public Shared Educational() As String = {
+        "Educational Book"
+    }
+
     ' ===============================
     ' STUDENT INFORMATION
     ' ===============================
